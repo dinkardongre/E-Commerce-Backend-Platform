@@ -1,0 +1,62 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI/Starlette reload artifacts
+*.reload
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment files
+.env
+*.env
+
+# Editor folders
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Test/coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+*.cover
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Mypy, Pyre, and others
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Other build/distribution files
+dist/
+build/
+*.egg-info/
+
+# Secret/config
+secrets.json
+config.json
